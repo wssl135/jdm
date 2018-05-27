@@ -1,12 +1,22 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
 @import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+//@import '~bootstrap/scss/bootstrap';
+
+//@import '~bootstrap/dist/css/bootstrap.css';
+@import '~admin-lte/node_modules/bootstrap/dist/css/bootstrap.css';
+@import '~font-awesome/css/font-awesome.css';
+@import '~ionicons/dist/css/ionicons.css';
+@import '~jvectormap/jquery-jvectormap.css';
+
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~admin-lte/dist/css/skins/_all-skins.css';
+
 
 .navbar-laravel {
   background-color: #fff;

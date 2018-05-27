@@ -1540,7 +1540,12 @@
 <!-- ./wrapper -->
 
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/dashboard.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery.sparkline.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery-jvectormap-1.2.2.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery-jvectormap-world-mill-en.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery.slimscroll.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/chart.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/dashboard2.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
 </body>
 </html>

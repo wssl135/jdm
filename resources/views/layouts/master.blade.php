@@ -7,7 +7,7 @@
   <title>AdminLTE 2 | Dashboard</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  
+  <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 
@@ -1544,7 +1544,7 @@
 <script type="text/javascript" src="{{ asset('js/jquery-jvectormap-1.2.2.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/jquery-jvectormap-world-mill-en.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/jquery.slimscroll.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/chart.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/Chart.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/dashboard2.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
 </body>
